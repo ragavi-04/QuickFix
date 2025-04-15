@@ -1,0 +1,98 @@
+/* Form Container */
+.contact-col {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fffaf0; /* Light cream background */
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Labels */
+  .contact-col form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8b4513; /* Saddle Brown color */
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  form input[type='text'],
+  form input[type='tel'],
+  form input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #d2b48c; /* Tan border */
+    border-radius: 6px;
+    background-color: #faf3e6; /* Light cream background */
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Textarea */
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #d2b48c;
+    border-radius: 6px;
+    background-color: #faf3e6;
+    margin-bottom: 15px;
+    resize: vertical; /* Allow vertical resizing only */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Dropdown */
+  form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #d2b48c;
+    border-radius: 6px;
+    background-color: #faf3e6;
+    margin-bottom: 15px;
+    appearance: none; /* Remove default dropdown arrow for consistency */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Focus Effect */
+  form input:focus,
+  form textarea:focus,
+  form select:focus {
+    border-color: #8b4513; /* Darker brown on focus */
+    outline: none;
+    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.3);
+  }
+  
+  /* Submit Button */
+  form .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #8b4513; /* Saddle Brown button */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  form .btn:hover {
+    background-color: #a0522d; /* Lighter brown on hover */
+    transform: scale(1.05);
+  }
+  
+  /* Status Span */
+  .contact-col span {
+    display: block;
+    font-size: 14px;
+    color: #8b4513;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
